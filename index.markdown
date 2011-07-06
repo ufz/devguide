@@ -9,34 +9,34 @@ title: Welcome to the OGS developer guide
   <div class="bootcamp-body">
   <ul>
     <li class="setup">
-      <a href="/devguide/set-up-git-redirect">
+      <a href="/devguide/setup-git-redirect">
         <div class="image">&nbsp;</div>
         <div class="desc">
-          <h2>Set Up Git</h2>
-        </div>
-      </a>
-    </li>
-    <li class="create-a-repo">
-      <a href="/devguide/create-a-repo">
-        <div class="image">&nbsp;</div>
-        <div class="desc">
-          <h2>Create A Repo</h2>
+          <h2>Setup Git</h2>
         </div>
       </a>
     </li>
     <li class="fork-a-repo">
-      <a href="/devguide/fork-a-repo">
+      <a href="/devguide/prerequisites-redirect">
         <div class="image">&nbsp;</div>
         <div class="desc">
-          <h2>Fork OGS Repo</h2>
+          <h2>Prerequisites</h2>
+        </div>
+      </a>
+    </li>
+    <li class="create-a-repo">
+      <a href="/devguide/configure-cmake-redirect">
+        <div class="image">&nbsp;</div>
+        <div class="desc">
+          <h2>Configure</h2>
         </div>
       </a>
     </li>
     <li class="be-social">
-      <a href="/devguide/be-social">
+      <a href="/devguide/build-redirect">
         <div class="image">&nbsp;</div>
         <div class="desc">
-          <h2>Be social</h2>
+          <h2>Build</h2>
         </div>
       </a>
     </li>
