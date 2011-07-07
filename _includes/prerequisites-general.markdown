@@ -2,14 +2,14 @@
 
 The minimum prerequisites are:
 
-- Git (version control tool)
-- CMake (build configuration tool, at least version 2.8.x)
-- A compiler / IDE
+	- Git (version control tool)
+	- CMake (build configuration tool, at least version 2.8.x)
+	- A compiler / IDE
 
 For the OGS DataExplorer the following are needed as well:
 
-- VTK (graphics library, at least version 5.6.x)
-- Qt (GUI library, at least version 4.6.x)
+	- VTK (graphics library, at least version 5.6.x)
+	- Qt (GUI library, at least version 4.6.x)
 
 ## <span class="step">First:</span> Install Git and set up Github ##
 

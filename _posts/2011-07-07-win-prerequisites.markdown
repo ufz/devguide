@@ -12,14 +12,14 @@ description: How to configure a build with CMake
 
 1. <span class="step-title">Download the installer</span>
 
-  At the [CMake download page](http://www.cmake.org/cmake/resources/software.html)
-  choose the **Windows (Win32 Installer)**.
+	At the [CMake download page](http://www.cmake.org/cmake/resources/software.html)
+	choose the **Windows (Win32 Installer)**.
 
 2. <span class="step-title">Execute the installer</span>
 
-  On installing please check the *Add CMake to the system path for ...*:
+	On installing please check the *Add CMake to the system path for ...*:
 
-  <img src="/devguide/images/cmake-win-install.png" width="511" height="396" alt="Check path option" />
+	<img src="/devguide/images/cmake-win-install.png" width="511" height="396" alt="Check path option" />
 
 ## <span class="step">Third:</span> Install Visual Studio ##
 
@@ -32,18 +32,18 @@ On installation you can uncheck all options belonging to other programming
 
 1. <span class="step-title">Create bin-directory</span>
 
-  On the Git Bash in your Home-directory (`~/`):
+	On the Git Bash in your Home-directory (`~/`):
 
-  <pre class="terminal bootcamp">
-  <span class="bash-output"><em>username</em>@<em>computername</em> ~</span>
-	<span class="codeline">$ mkdir bin<span></span>Creates the bin-directory</span>
-  </pre>
+	<pre class="terminal bootcamp">
+		<span class="bash-output"><em>username</em>@<em>computername</em> ~</span>
+		<span class="codeline">$ mkdir bin<span></span>Creates the bin-directory</span>
+	</pre>
 
 2. <span class="step-title">Download wget</span>
 
-  Download wget [here](https://github.com/downloads/ufz/devguide/wget.exe) and
-  place the executable in the created bin-directory which is located inside
-  your user-directory.
+	Download wget [here](https://github.com/downloads/ufz/devguide/wget.exe) and
+	place the executable in the created bin-directory which is located inside
+	your user-directory.
 
 ## <span class="step">Optional:</span> Install Qt (needed for DataExplorer) ##
 
