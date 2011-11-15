@@ -4,7 +4,7 @@ title: Build configuration with CMake
 description: How to configure a build with CMake
 ---
 
-<p class="intro">This guide will show you how to configure your build configuration on <strong>Windows</strong>. There are also guides for <strong><a href="/devguide/linux-configure-cmake">Linux and OSX</a>.</p>
+<p class="intro">This guide will show you how to configure your build configuration on <strong>Windows</strong>. There are also guides for <strong><a href="/devguide/linux-configure-cmake">Linux and OSX</a></strong>.</p>
 
 {% include cmake-general.markdown %}
 
