@@ -8,8 +8,8 @@ The minimum prerequisites are:
 
 For the OGS DataExplorer the following are needed as well:
 
-- VTK (graphics library, at least version 5.6.x)
-- Qt (GUI library, at least version 4.6.x)
+- VTK (graphics library, at least version 5.8.x)
+- Qt (GUI library, at least version 4.7.x)
 
 ## <span class="step">First:</span> Install Git and set up Github ##
 

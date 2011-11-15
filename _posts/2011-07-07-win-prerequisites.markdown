@@ -45,9 +45,30 @@ On installation you can uncheck all options belonging to other programming
 	place the executable in the created bin-directory which is located inside
 	your user-directory.
 
-## <span class="step">Optional:</span> Install Qt (needed for DataExplorer) ##
+## <span class="step">Fifth:</span> Checkout the source code ##
 
-Please follow the steps in the official Qt documentation [installation guide](http://doc.qt.nokia.com/latest/install-win.html) and come back afterwards.
+On Windows it is necessary to checkout the source code in a directory which contains ***no spaces*** or other Windows specific file system characters! So
+on the git bash change the current directory to C:/ogs for example:
 
-## <span class="step">Optional:</span> Install VTK (needed for DataExplorer) ##
+<pre class="terminal bootcamp">
+	<span class="bash-output"><em>username</em>@<em>computername</em> ~</span>
+	<span class="codeline">$ cd /c/ogs<span></span>Changes the current working directory to C:/ogs</span>
+</pre>
+
+{% include checkout-general.markdown %}
+
+## <span class="step">Optional:</span> Install required libraries automatically (needed for Data Explorer) ##
+
+On the git shell go to the OGS *sources/scripts/setup/*-directory and run the setup
+script:
+
+<pre class="terminal bootcamp">
+		<span class="bash-output"><em>username</em>@<em>computername</em> ~</span>
+		<span class="codeline">$ cd sources/scripts/setup<span></span>Change current directory to the script directory</span>
+		<span class="codeline">$ ./setup.sh -a [x32|x64]<span></span>Run the setup script and pass your architecture: choose either x32 or x64</span>
+	</pre>
+
+## <span class="step">Optional:</span> Install optional libraries and tools ##
+
+{% include adv-tools-links.markdown %}
 

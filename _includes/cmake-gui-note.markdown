@@ -1,0 +1,1 @@
+The usage of the gui based tools is preferred because several CMake runs may be required in some cases (e.g. for the OGS_FEM_MKL configuration) due to CMakes execution behavior. That means if you like to configure for the MKL option with the CMake command line executable it is necessary to run CMake twice in order to configure correctly.
