@@ -17,8 +17,7 @@ Install Xcode 4 through the Mac App Store (Mac OS X 10.6.x and higher) or [Xcode
 [Homebrew](http://mxcl.github.com/homebrew/) is a package manager for Mac OS X and should be used to install all necessary libraries and tools. To install run the following on the Terminal:
 
 <pre class="terminal bootcamp">
-	<span class="bash-output"><em>username</em>@<em>computername</em> ~</span>
-	<span class="codeline">$ /usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"<span></span>This installs Homebrew</span>
+	<span class="codeline">$ /usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"<span>This installs Homebrew</span></span>
 </pre>
 
 You can now use the `homebrew` command to search, install or deinstall libraries.
@@ -26,8 +25,7 @@ You can now use the `homebrew` command to search, install or deinstall libraries
 ## <span class="step">Fourth:</span> Install CMake ##
 
 <pre class="terminal bootcamp">
-	<span class="bash-output"><em>username</em>@<em>computername</em> ~</span>
-	<span class="codeline">$ brew install cmake<span></span>This installs CMake through the Homebrew package manager</span>
+	<span class="codeline">$ brew install cmake<span>This installs CMake through the Homebrew package manager</span></span>
 </pre>
 
 ## <span class="step">Optional:</span> Install libraries needed for the Data Explorer ##
@@ -35,8 +33,7 @@ You can now use the `homebrew` command to search, install or deinstall libraries
 This installs Qt, Vtk, shapelib and geotiff:
 
 <pre class="terminal bootcamp">
-	<span class="bash-output"><em>username</em>@<em>computername</em> ~</span>
-	<span class="codeline">$ brew install qt shapefile libgeotiff vtk --qt<span></span>This installs libraries through the Homebrew package manager</span>
+	<span class="codeline">$ brew install qt shapefile libgeotiff vtk --qt<span>This installs libraries through the Homebrew package manager</span></span>
 </pre>
 
 ## <span class="step">Optional:</span> Install optional libraries and tools ##
@@ -44,7 +41,6 @@ This installs Qt, Vtk, shapelib and geotiff:
 {% include adv-tools-links.markdown %}
 
 <pre class="terminal bootcamp">
-	<span class="bash-output"><em>username</em>@<em>computername</em> ~</span>
-	<span class="codeline">$ brew install gtest open-sg cppcheck doxygen netcdf uncrustify<span></span>This installs CMake through the Homebrew package manager</span>
+	<span class="codeline">$ brew install gtest open-sg cppcheck doxygen netcdf uncrustify<span>This installs libraries through the Homebrew package manager</span></span>
 </pre>
 

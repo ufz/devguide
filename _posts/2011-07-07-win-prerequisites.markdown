@@ -35,8 +35,7 @@ On installation you can uncheck all options belonging to other programming
 	On the Git Bash in your Home-directory (`~/`):
 
 	<pre class="terminal bootcamp">
-		<span class="bash-output"><em>username</em>@<em>computername</em> ~</span>
-		<span class="codeline">$ mkdir bin<span></span>Creates the bin-directory</span>
+		<span class="codeline">$ mkdir bin<span>Creates the bin-directory</span></span>
 	</pre>
 
 2. <span class="step-title">Download wget</span>
@@ -51,8 +50,7 @@ On Windows it is necessary to checkout the source code in a directory which cont
 on the git bash change the current directory to C:/ogs for example:
 
 <pre class="terminal bootcamp">
-	<span class="bash-output"><em>username</em>@<em>computername</em> ~</span>
-	<span class="codeline">$ cd /c/ogs<span></span>Changes the current working directory to C:/ogs</span>
+	<span class="codeline">$ cd /c/ogs<span>Changes the current working directory to C:/ogs</span></span>
 </pre>
 
 {% include checkout-general.markdown %}
@@ -63,10 +61,9 @@ On the git shell go to the OGS *sources/scripts/setup/*-directory and run the se
 script:
 
 <pre class="terminal bootcamp">
-		<span class="bash-output"><em>username</em>@<em>computername</em> ~</span>
-		<span class="codeline">$ cd sources/scripts/setup<span></span>Change current directory to the script directory</span>
-		<span class="codeline">$ ./setup.sh -a [x32|x64]<span></span>Run the setup script and pass your architecture: choose either x32 or x64</span>
-	</pre>
+	<span class="codeline">$ cd sources/scripts/setup<span>Change current directory to the script directory</span></span>
+	<span class="codeline">$ ./setup.sh -a [x32|x64]<span>Run the setup script and pass your architecture: choose either x32 or x64</span></span>
+</pre>
 
 ## <span class="step">Optional:</span> Install optional libraries and tools ##
 
