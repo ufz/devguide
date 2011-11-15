@@ -4,7 +4,7 @@ title: Set Up Prerequisites
 description: A quick guide to help you to install the prerequisites
 ---
 
-<p class="intro">This guide will show you how to install and setup all prerequisites in <strong>Windows</strong>. There are also guides for <strong><a href="/help/linux-prerequisites">Linux</a></strong> and <strong><a href="/help/mac-prerequisites">OSX</a></strong>.</p>
+<p class="intro">This guide will show you how to install and setup all prerequisites in <strong>Windows</strong>. There are also guides for <strong><a href="/devguide/linux-prerequisites">Linux</a></strong> and <strong><a href="/devguide/mac-prerequisites">OSX</a></strong>.</p>
 
 {% include prerequisites-general.markdown %}
 
