@@ -9,7 +9,7 @@ title: Welcome to the OGS developer guide
   <div class="bootcamp-body">
   <ul>
     <li class="setup">
-      <a href="/devguide/setup-git-redirect">
+      <a href="{{site.baseurl}}/setup-git-redirect">
         <div class="image">&nbsp;</div>
         <div class="desc">
           <h2>Setup Git</h2>
@@ -17,7 +17,7 @@ title: Welcome to the OGS developer guide
       </a>
     </li>
     <li class="fork-a-repo">
-      <a href="/devguide/prerequisites-redirect">
+      <a href="{{site.baseurl}}/prerequisites-redirect">
         <div class="image">&nbsp;</div>
         <div class="desc">
           <h2>Prerequisites</h2>
@@ -25,7 +25,7 @@ title: Welcome to the OGS developer guide
       </a>
     </li>
     <li class="create-a-repo">
-      <a href="/devguide/configure-cmake-redirect">
+      <a href="{{site.baseurl}}/configure-cmake-redirect">
         <div class="image">&nbsp;</div>
         <div class="desc">
           <h2>Configure</h2>
@@ -33,7 +33,7 @@ title: Welcome to the OGS developer guide
       </a>
     </li>
     <li class="be-social">
-      <a href="/devguide/build-redirect">
+      <a href="{{site.baseurl}}/build-redirect">
         <div class="image">&nbsp;</div>
         <div class="desc">
           <h2>Build</h2>

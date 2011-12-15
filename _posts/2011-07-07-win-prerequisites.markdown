@@ -4,9 +4,14 @@ title: Set Up Prerequisites
 description: A quick guide to help you to install the prerequisites
 ---
 
-<p class="intro">This guide will show you how to install and setup all prerequisites in <strong>Windows</strong>. There are also guides for <strong><a href="/devguide/linux-prerequisites">Linux</a></strong> and <strong><a href="/devguide/mac-prerequisites">OSX</a></strong>.</p>
+<p class="intro">This guide will show you how to install and setup all prerequisites in <strong>Windows</strong>. There are also guides for <strong><a href="{{site.baseurl}}/linux-prerequisites">Linux</a></strong> and <strong><a href="{{site.baseurl}}/mac-prerequisites">OSX</a></strong>.</p>
 
 {% include prerequisites-general.markdown %}
+
+Furthermore you need:
+
+- a bash environment (is included in the Git installation)
+- wget (if you want to use the automatic setup scriptπ)
 
 ## <span class="step">Second:</span> Install CMake ##
 
@@ -19,7 +24,7 @@ description: A quick guide to help you to install the prerequisites
 
 	On installing please check the *Add CMake to the system path for ...*:
 
-	<img src="/devguide/images/cmake-win-install.png" width="511" height="396" alt="Check path option" />
+	<img src="{{site.baseurl}}/images/cmake-win-install.png" width="511" height="396" alt="Check path option" />
 
 ## <span class="step">Third:</span> Install Visual Studio ##
 
@@ -40,7 +45,7 @@ On installation you can uncheck all options belonging to other programming
 
 2. <span class="step-title">Download wget</span>
 
-	Download wget [here](https://github.com/downloads/ufz/devguide/wget.exe) and
+	Download wget [here](https://github.com/downloads/ufz{{site.baseurl}}/wget.exe) and
 	place the executable in the created bin-directory which is located inside
 	your user-directory.
 
@@ -64,6 +69,13 @@ script:
 	<span class="codeline">$ cd sources/scripts/setup<span>Change current directory to the script directory</span></span>
 	<span class="codeline">$ ./setup.sh -a [x32|x64]<span>Run the setup script and pass your architecture: choose either x32 or x64</span></span>
 </pre>
+
+See [the scripts source code](https://github.com/ufz/ogs/tree/master/scripts/setup) for more informations.
+
+Afterwards create some environment variables for qt:
+
+- Set `QTDIR` to `Path_to_your_Libs_directory\\qt`
+- Add `%QTDIR%\\bin` to your `PATH`-variable:
 
 ## <span class="step">Optional:</span> Install optional libraries and tools ##
 

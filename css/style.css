@@ -1,3 +1,5 @@
+---
+---
 html {
   height: 100%;
 }
@@ -51,8 +53,8 @@ html {
   background-position: -2px 2px;
   background-repeat: no-repeat;
 }
-.ui-icon-triangle-expand { background-image: url(/devguide/images/expand.png); }
-.ui-icon-triangle-collapse { background-image: url(/devguide/images/collapse.png); }
+.ui-icon-triangle-expand { background-image: url({{site.baseurl}}/images/expand.png); }
+.ui-icon-triangle-collapse { background-image: url({{site.baseurl}}/images/collapse.png); }
 
 /****************************/
 /*      Forking ribbon      */
@@ -121,7 +123,7 @@ p.next-step strong, .next-steps {
   font-weight: bold;
 }
 .next-steps a {
-  background-image: url('/devguide/images/bootcamp/next_step_arrow.gif');
+  background-image: url('{{site.baseurl}}/images/bootcamp/next_step_arrow.gif');
   background-repeat: no-repeat;
   background-position: right 50%;
   padding-right: 15px;
@@ -312,7 +314,7 @@ img.top-margin {
   border-bottom: 1px solid #f1efaf;
   background-repeat: no-repeat;
   background-position: 0 10px;
-  background-image: url(/devguide/images/bootcamp_sprites.png);
+  background-image: url({{site.baseurl}}/images/bootcamp_sprites.png);
 }
 
 .bootcamp-help .setup .image {
