@@ -72,10 +72,10 @@ script:
 
 See [the scripts source code](https://github.com/ufz/ogs/tree/master/scripts/setup) for more informations.
 
-Afterwards create some environment variables for qt:
+Afterwards [create some environment](http://www.itechtalk.com/thread3595.html) variables for qt:
 
-- Set `QTDIR` to `Path_to_your_Libs_directory\\qt`
-- Add `%QTDIR%\\bin` to your `PATH`-variable:
+- Set `QTDIR` variable to `Path_to_your_Libs_directory\qt`
+- Add `%QTDIR%\bin` to your `PATH`-variable:
 
 ## <span class="step">Optional:</span> Install optional libraries and tools ##
 
