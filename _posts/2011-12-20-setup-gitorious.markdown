@@ -28,11 +28,12 @@ The Gitorious server has the following features:
 - [Setup an account](http://vismac02.intranet.ufz.de:8080/users/new) on the Gitorious server
 - Upload your public ssh key (normally found in ~/.ssh/id_rsa.pub) to your Gitorious account (found under Manage SSH Keys on your Dashboard page)
 - Edit ~/.ssh/config:
-{% highlight bash }
+
+{% highlight bash %}
 Host vismac02.intranet.ufz.de
   HostName 141.65.34.28
   Port 2222
-{ endhighlight %}
+{% endhighlight %}
 
 *Note*: You have to use different ports for both the webserver (8080) and the ssh connection (2222) because the Gitorious server runs in a virtual machine on vismac02.
 
