@@ -1,0 +1,8 @@
+# TextMate settings
+windowTitle      = "$TM_DISPLAYNAME :: OGS6-Devguide"
+projectDirectory = '$CWD'
+
+include = ".tm_properties"
+exclude = "_site"
+
+softWrap = true
