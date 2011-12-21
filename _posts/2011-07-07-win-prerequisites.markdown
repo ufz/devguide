@@ -11,7 +11,7 @@ description: A quick guide to help you to install the prerequisites
 Furthermore you need:
 
 - a bash environment (is included in the Git installation)
-- wget (if you want to use the automatic setup scriptπ)
+- wget (if you want to use the automatic setup script)
 
 ## <span class="step">Second:</span> Install CMake ##
 
@@ -31,8 +31,8 @@ Furthermore you need:
 Install Microsoft Visual Studio. All versions from 2005 on should work (also
 the freely available [C++ Express editions](http://www.microsoft.com/germany/express/)).
 On installation you can uncheck all options belonging to other programming
-  languages than C++.
-  
+languages than C++.
+
 ## <span class="step">Fourth:</span> Install wget for Windows ##
 
 1. <span class="step-title">Create bin-directory</span>
