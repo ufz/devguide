@@ -1,0 +1,19 @@
+---
+layout: default
+title: Build the project with Visual Studio
+description:
+---
+
+<p class="intro">This guide will show you how to build the project on <strong>Windows</strong>. There are also guides for <strong><a href="{{site.baseurl}}/linux-build">Linux</a> and <a href="{{site.baseurl}}/mac-build">OSX</a></strong>.</p>
+
+## Build with Visual Studio ##
+
+Open the *OGS.sln* either by double-clicking it in the file browser or opening in Visual Studio via *File / Open / Project*.
+
+On the project explorer right-click on *ogs* or *ogs-gui* and choose *Set as startup project*. Then press *F5* or click the green arrow to build and start the project.
+
+## How to work with CMake and Visual Studio ##
+
+You can work normally in Visual Studio but remember that you have to make project changes in the *CMakeLists.txt* and not inside Visual Studio. So you can add a new source file within Visual Studios File menu but you have to add that file also to the CMake file. Every time you change a *CMakeLists.txt* and you build the project a new CMake run is automatically invoked. After that Visual Studio informs you that the project files were changed and it reloads them.
+
+If you want to use another project configuration delete the contents of your Build-directory and run CMake again with the new configuration set to ON.
