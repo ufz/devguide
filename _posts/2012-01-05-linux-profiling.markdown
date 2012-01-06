@@ -10,7 +10,7 @@ description:
 
 ## Profiling OGS ##
 
-For profiling OGS [gprof](http://www.cs.utah.edu/dept/old/texinfo/as/gprof_toc.html) is used. Also have a look at [this tutorial](http://linux.about.com/library/cmd/blcmdl1_gprof.htm).
+For profiling OGS [gprof](http://www.cs.utah.edu/dept/old/texinfo/as/gprof_toc.html) is used. Also have a look at [this grpf tutorial](http://linux.about.com/library/cmd/blcmdl1_gprof.htm). The graphs are generated with the [gprof2dot](http://code.google.com/p/jrfonseca/wiki/Gprof2Dot) python script.
 
 To profile an OGS run you have to configure with the `-DOGS_PROFILE=ON` CMake-option. This adds the `-pg` compiler option. While the program is running a file with the name *gmon.out* is created. Make also sure to configure with the optimized release option (`-DCMAKE_BUILD_TYPE=Release`).
 
