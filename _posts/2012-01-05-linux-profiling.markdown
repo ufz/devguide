@@ -31,5 +31,5 @@ You have to gprof with ogs executable as an argument. The you need to pipe the o
 	<span class="codeline">$ cd build<span>Go to your build directory</span></span>
 	<span class="codeline">$ cmake [path to source-directory] [other cmake options] -DOGS_PROFILE=ON -DCMAKE_BUILD_TYPE=Release<span>Configure your build as explained above</span></span>
 	<span class="codeline">$ ./bin/ogs [path to the benchmark]<span>run ogs, this creates the gmon.out-file</span></span>
-	<span class="codeline">$ gprof ./bin/ogs [path to source-directory]/scripts/gprof2dot.py -s | dot -Tpng -o output.png<span>this creates the graph as a png-file</span></span>
+	<span class="codeline">$ gprof ./bin/ogs | [path to source-directory]/scripts/gprof2dot.py -s | dot -Tpng -o output.png<span>this creates the graph as a png-file</span></span>
 </pre>
