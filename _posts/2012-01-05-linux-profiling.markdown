@@ -12,7 +12,7 @@ description:
 
 For profiling OGS [gprof](http://www.cs.utah.edu/dept/old/texinfo/as/gprof_toc.html) is used. Also have a look at [this tutorial](http://linux.about.com/library/cmd/blcmdl1_gprof.htm).
 
-To profile an OGS run you have to configure with the `-DOGS_PROFILE=ON` CMake-option. This adds the `-pg` compiler option. While the program is running a file with the name *gmon.out* is created.
+To profile an OGS run you have to configure with the `-DOGS_PROFILE=ON` CMake-option. This adds the `-pg` compiler option. While the program is running a file with the name *gmon.out* is created. Make also sure to configure with the optimized release option (`-DCMAKE_BUILD_TYPE=Release`).
 
 ## Generate nice graphs ##
 
@@ -29,7 +29,7 @@ You have to gprof with ogs executable as an argument. The you need to pipe the o
 
 <pre class="terminal bootcamp">
 	<span class="codeline">$ cd build<span>Go to your build directory</span></span>
-	<span class="codeline">$ cmake [path to source-directory] [other cmake options] -DOGS_PROFILE=ON<span>Configure your build as explained above</span></span>
+	<span class="codeline">$ cmake [path to source-directory] [other cmake options] -DOGS_PROFILE=ON -DCMAKE_BUILD_TYPE=Release<span>Configure your build as explained above</span></span>
 	<span class="codeline">$ ./bin/ogs [path to the benchmark]<span>run ogs, this creates the gmon.out-file</span></span>
 	<span class="codeline">$ gprof ./bin/ogs [path to source-directory]/scripts/gprof2dot.py -s | dot -Tpng -o output.png<span>this creates the graph as a png-file</span></span>
 </pre>
