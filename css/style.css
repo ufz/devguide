@@ -56,6 +56,10 @@ html {
 .ui-icon-triangle-expand { background-image: url({{site.baseurl}}/images/expand.png); }
 .ui-icon-triangle-collapse { background-image: url({{site.baseurl}}/images/collapse.png); }
 
+div#conventions { padding: 0; margin: 0; }
+div#conventions h3 { padding: 0.5em; }
+div#conventions ul li { padding: 0.5em 1em; }
+
 /****************************/
 /*      Forking ribbon      */
 /****************************/
