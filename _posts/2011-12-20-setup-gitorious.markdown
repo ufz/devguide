@@ -28,7 +28,9 @@ The Gitorious server has the following features:
 - If you have not done before: [install and setup Git](http://ufz.github.com/devguide/setup-git-redirect)
 - [Setup an account](http://vismac02.intranet.ufz.de:8080/users/new) on the Gitorious server (you will get a confirmation email with a link, insert `:8080` into the link url after `ufz.de`)
 - Upload your public ssh key (normally found in ~/.ssh/id_rsa.pub) to your Gitorious account (found under Manage SSH Keys on your Dashboard page)
-- Edit ~/.ssh/config:
+- Edit ~/.ssh/config
+ - To create this file type `touch ~/.ssh/config`
+ - Now edit this file with a text editor or use *vim* (`vim ~/.ssh/config`, press *i*-key, enter the following, press *ESC*-*:*-*w*-*q*-*ENTER*):
 {% highlight bash %}
 Host vismac02.intranet.ufz.de
   HostName 141.65.34.28
