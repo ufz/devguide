@@ -2,7 +2,7 @@
 layout: default
 title: Testing with googletest and QTest
 description: How to run and write unit tests
-categories: advanced
+categories: intermediate
 ---
 
 <p class="intro">This guide will show you how to run and also write <strong>unit tests</strong>. There will be another guide about <strong>benchmarking</strong>.</p>
