@@ -1,0 +1,65 @@
+---
+layout: default
+title: Testing with googletest and QTest
+description: How to run and write unit tests
+categories: advanced
+---
+
+<p class="intro">This guide will show you how to run and also write <strong>unit tests</strong>. There will be another guide about <strong>benchmarking</strong>.</p>
+
+## Testing overview ##
+
+For testing core functionality [Googletest][gtest] is used. For testing GUI-related functionality [QTest][qtest] is used. These are lightweight unit testing frameworks. With unit tests you can test code functionality. For comparing test outputs with reference files the [Google diff_match_patch][gdiff] library can be used.
+
+## Prerequisites ##
+
+TO enable testing configure OGS with the CMake command `-DOGS_BUILD_TESTING=ON`. To also enable the GUI-related tests you also have to configure with the `-DOGS_USE_QT=ON` option.
+
+# Googletest #
+
+The Googletest library is part of the OGS source code and can be found in the *tests/GTest*-directory. To run the tests build the *gtests* make target or the Visual Studio project:
+
+    make gtests
+
+## Write tests ##
+
+Have a look at *tests/testBase.cpp*.
+
+There you see 3 simple tests which verify the `swap()`-function. Tests are added with the `TEST`-macro. The first parameter is a group name and the second is the test name. The tests will be run by a simple executable defined in *testrunner.cpp* (and this executable is also run by the *gtests*-target).
+
+For more advanced examples see the [Googletest Wiki][gtest_wiki].
+
+
+# QTest #
+
+The QTest library is part of the Qt framework
+
+See the [QTest page][qtest] and the [QTest Namespace page][qtest_ns] for further informations.
+
+# Comparing to reference files #
+
+The Google diff_match_patch library is part of the OGS source code and can be found in the *tests/gdiff*-directory. The reference files as well as input files to tests are managed by a separate [Git repository][testdata]. This data repository must be placed in the same directory as your OGS source directory (in parallel to the source directory). To clone it:
+
+    git clone git://vismac02.intranet.ufz.de/ogs5/testdata.git
+
+
+The `QtTestBase`-class provides the method `compareToReference(string, refFile)` to compare a given string to the contents of the file *testdata/ref/[refFile]*. If there are differences the test fails and an HTML document is generated in *[build-directory]/tests/results/[refFile].html* which shows the differences.
+
+## Automatic tests by Jenkins ##
+
+The tests are also run automatically by our Jenkins server. See the [last report][last_tests] for details. Also the HTML diff output can be viewed by clicking the link on the failed test page.
+
+
+[gtest]: http://code.google.com/p/googletest/wiki/GoogleTestPrimer
+
+[gtest_wiki]: http://code.google.com/p/googletest/w/list
+
+[gdiff]: http://code.google.com/p/google-diff-match-patch/
+
+[qtest]: http://doc.qt.nokia.com/4.7/qtestlib-manual.html
+
+[qtest_ns]: http://doc.qt.nokia.com/4.7/qtest.html
+
+[last_tests]: http://ogsbuild.leipzig.ufz.de/job/Git_FF_Gui_Linux/lastCompletedBuild/testReport/
+
+[testdata]: http://vismac02.intranet.ufz.de:8080/ogs5/testdata
