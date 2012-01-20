@@ -9,13 +9,13 @@ categories: advanced
 
 ## Testing overview ##
 
-For testing core functionality [Googletest][gtest] is used. For testing GUI-related functionality [QTest][qtest] is used. These are lightweight unit testing frameworks. With unit tests you can test code functionality. For comparing test outputs with reference files the [Google diff_match_patch][gdiff] library can be used.
+For testing core and Qt / Vtk functionality [Googletest][gtest] is used. For testing GUI functionality [QTest][qtest] will used. These are lightweight unit testing frameworks. With unit tests you can test code functionality. For comparing test outputs with reference files the [Google diff_match_patch][gdiff] library can be used.
 
 ## Prerequisites ##
 
-TO enable testing configure OGS with the CMake command `-DOGS_BUILD_TESTING=ON`. To also enable the GUI-related tests you also have to configure with the `-DOGS_USE_QT=ON` option.
+To enable testing configure OGS with the CMake command `-DOGS_BUILD_TESTING=ON`. To also enable the Qt- and Vtk-related tests you also have to configure with the `-DOGS_USE_QT=ON` option.
 
-# Googletest #
+# <span style="font-style: oblique; color: #666666;">First:</span> Googletest for core functionality #
 
 The Googletest library is part of the OGS source code and can be found in the *tests/GTest*-directory. To run the tests build the *gtests* make target or the Visual Studio project:
 
@@ -29,10 +29,25 @@ There you see 3 simple tests which verify the `swap()`-function. Tests are added
 
 For more advanced examples see the [Googletest Wiki][gtest_wiki].
 
+# <span style="font-style: oblique; color: #666666;">Second:</span> Googletest for Qt / Vtk tests #
 
-# QTest #
+To run the tests build the *qtests* make target or the Visual Studio project:
 
-The QTest library is part of the Qt framework
+    make qtests
+
+## Write tests ##
+
+Have a look at *tests/Qt/Vtk/TestMeshFromRaster.cpp*.
+
+There you see one tests which verifies the functionality to generate a Mesh file from a raster file. The test is added with the `TEST`-macro. The first parameter is a group name and the second is the test name. It uses some googletest macros to verify the number of nodes and elements of the generated mesh and then compares the generated mesh with a reference file (see *Comparing to reference files*). The *cpp*-file must be added to the `SOURCES`-CMake-variable in *tests/Qt/CMakeLists.txt*.
+
+All tests will be run by a simple executable defined in *QtTestrunner.cpp* (and this executable is also run by the *qtests*-target).
+
+# <span style="font-style: oblique; color: #666666;">Third:</span> QTest for GUI testing #
+
+This section is currently work in progress and functionality for this is not implemented in the source code ...
+
+The QTest library is part of the Qt framework.
 
 See the [QTest page][qtest] and the [QTest Namespace page][qtest_ns] for further informations.
 
@@ -43,7 +58,13 @@ The Google diff_match_patch library is part of the OGS source code and can be fo
     git clone git://vismac02.intranet.ufz.de/ogs5/testdata.git
 
 
-The `QtTestBase`-class provides the method `compareToReference(string, refFile)` to compare a given string to the contents of the file *testdata/ref/[refFile]*. If there are differences the test fails and an HTML document is generated in *[build-directory]/tests/results/[refFile].html* which shows the differences.
+The file *TestHelperFunctions.h* provides the function `compareToReference(string, refFile)` to compare a given string to the contents of the file *testdata/ref/[refFile]*. If there are differences the test fails and an HTML document is generated in *[build-directory]/tests/results/[refFile].html* which shows the differences.
+
+If you need to update the reference file to the currently produces output of the test run the *QtTestrunner* with the `update`-argument:
+
+    bin/QtTestrunner update
+
+This will update **all** failed file compares. Be sure to commit only those updated reference file which are verified by you.
 
 ## Automatic tests by Jenkins ##
 
