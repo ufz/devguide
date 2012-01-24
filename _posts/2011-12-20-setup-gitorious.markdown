@@ -48,3 +48,54 @@ The branch *master* of the [OGS main repository](http://vismac02.local:8080/ogs5
 To get the lastest changes from the Subversion trunk simply merge the branch *master* of the main repository.
 
 To push changes from Git to Subversion simply push to the branch *master* of the main repository. It has to be decided who has write permission to the main repository.
+
+
+## Workflow ##
+
+![Gitorious Workflow]({{site.baseurl}}/images/gitorious-workflow.png "Gitorious Workflow")
+
+### Fetch upstream changes ###
+
+In the Git world the repository where a project originated is often called as the ***upstream*** repo. In our case the upstream repo is [Gitorious OGS5/sources][ogs5-sources-link]-repo. Most developers will not have write but read access to it. This means it is no problem to stay up-to-date with it.
+
+#### To create a git remote to the upstream repo: ####
+
+This only need to be done once. On the Git bash type:
+
+    git remote add upstream git://vismac02.intranet.ufz.de/ogs5/sources.git
+
+This registers a new git remote with the url to the repository. You now have two remotes on your local git repo:
+
+    git remote
+    > origin
+    > upstream
+
+#### To fetch and merge upstream changes: ####
+
+First fetch all changes from upstream:
+
+    git fetch upstream
+
+Then you can merge the contents of the master branch of the upstream repo:
+
+    git merge upstream/master
+
+Eventually you have to resolve conflicts.
+
+
+### Fetch changes from another developer ###
+
+The procedure is the same as above for the upstream repository. First create a new git remote which points to the other developers repo on the server:
+
+    git remote add norihiro git://vismac02.intranet.ufz.de/~watanabe/ogs5/watanabes-sources.git
+
+Now you have another remote called *norihiro* from where you can fetch and merge changes:
+
+    git fetch norihiro
+    git merge norihiro/master
+
+### Prepare a new release ###
+
+To do a release you first have to merge in all changes from upstream (see above). Afterwards tell one of the integrator persons (which have write access to  the upstream repo) to push your changes into the upstream repo.
+
+[ogs5-sources-link]: http://vismac02.intranet.ufz.de:8080/ogs5/sources
