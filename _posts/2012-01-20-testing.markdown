@@ -58,7 +58,7 @@ The Google diff_match_patch library is part of the OGS source code and can be fo
     git clone git://vismac02.intranet.ufz.de/ogs5/testdata.git
 
 
-The file *TestHelperFunctions.h* provides the function `compareToReference(string, refFile)` to compare a given string to the contents of the file *testdata/ref/[refFile]*. If there are differences the test fails and an HTML document is generated in *[build-directory]/tests/results/[refFile].html* which shows the differences.
+The file *TestHelperFunctions.h* provides the function `compareToReference(string, refFile)` to compare a given string to the contents of the file *testdata/ref/\[refFile\]*. If there are differences the test fails and an HTML document is generated in *\[build-directory\]/tests/results/\[refFile\].html* which shows the differences.
 
 If you need to update the reference file to the currently produces output of the test run the *QtTestrunner* with the `update`-argument:
 
