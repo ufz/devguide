@@ -33,23 +33,7 @@ the freely available [C++ Express editions](http://www.microsoft.com/germany/exp
 On installation you can uncheck all options belonging to other programming
 languages than C++.
 
-## <span class="step">Fourth:</span> Install wget for Windows ##
-
-1. <span class="step-title">Create bin-directory</span>
-
-	On the Git Bash in your Home-directory (`~/`):
-
-	<pre class="terminal bootcamp">
-		<span class="codeline">$ mkdir bin<span>Creates the bin-directory</span></span>
-	</pre>
-
-2. <span class="step-title">Download wget</span>
-
-	Download wget [here](https://github.com/downloads/ufz{{site.baseurl}}/wget.exe) and
-	place the executable in the created bin-directory which is located inside
-	your user-directory.
-
-## <span class="step">Fifth:</span> Checkout the source code ##
+## <span class="step">Fourth:</span> Checkout the source code ##
 
 On Windows it is necessary to checkout the source code in a directory which contains ***no spaces*** or other Windows specific file system characters! So
 on the git bash change the current directory to C:/ogs for example:
