@@ -1,0 +1,11 @@
+---
+layout: default
+title: Logging with logog
+description: How to log messages to files and stdout
+categories: intermediate
+---
+
+## Logging overview ##
+
+[Logog](http://johnwbyrd.github.com/logog) is integrated into OGS and can be found in *BaseLib/logog*. For a short introduction see the [quickstart page](http://johnwbyrd.github.com/logog/quickstart.html).
+
