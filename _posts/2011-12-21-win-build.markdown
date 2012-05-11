@@ -12,6 +12,15 @@ Open the *OGS.sln* either by double-clicking it in the file browser or opening i
 
 On the project explorer right-click on *ogs* or *ogs-gui* and choose *Set as startup project*. Then press *F5* or click the green arrow to build and start the project.
 
+<div class="more-info">
+  <h4 class="compressed">More about Visual Studio startup projects</h4>
+  <div class="more-content">
+    <p>
+      The reason for this is that you can have only one sub-project of your Visual Studio Solution activated for debugging (e.g. by pressing *F5*). Per default this is the first sub-project (in the case of a CMake-generated project this is *ALL_BUILD*). This must be manually set to a sub-project which generates an executable (a library sub-project cannot be started). And because this setting is stored in user specific project file it cannot be set via CMake.
+    </p>
+  </div>
+</div>
+
 ## How to work with CMake and Visual Studio ##
 
 You can work normally in Visual Studio but remember that you have to make project changes in the *CMakeLists.txt* and not inside Visual Studio. So you can add a new source file within Visual Studios File menu but you have to add that file also to the CMake file. Every time you change a *CMakeLists.txt* and you build the project a new CMake run is automatically invoked. After that Visual Studio informs you that the project files were changed and it reloads them.
