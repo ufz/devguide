@@ -5,6 +5,10 @@ description: Description of CMake configuration options
 categories: beginner
 ---
 
+## General ##
+
+- `OGS_DONT_USE_QT` - Disables all Qt specific code
+
 ## Debugging ##
 
 - `CMAKE_BUILD_TYPE` - Defaults to `Debug` which builds with debugging infos
