@@ -7,5 +7,5 @@ categories: intermediate
 
 ## Logging overview ##
 
-[Logog](http://johnwbyrd.github.com/logog) is integrated into OGS and can be found in *BaseLib/logog*. For a short introduction see the [quickstart page](http://johnwbyrd.github.com/logog/quickstart.html).
+[Logog](http://johnwbyrd.github.com/logog) is integrated into OGS (see [this pull request](https://github.com/ufz/ogs/pull/9)) and can be found in *BaseLib/logog*. For a short introduction see the [quickstart page](http://johnwbyrd.github.com/logog/quickstart.html).
 
