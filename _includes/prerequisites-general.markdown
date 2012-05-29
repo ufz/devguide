@@ -10,6 +10,8 @@ For the OGS DataExplorer the following are needed as well:
 
 - VTK (graphics library, at least version 5.8.x)
 - Qt (GUI library, at least version 4.7.x)
+- Shapelib
+- Geotiff
 
 ## <span class="step">First:</span> Install Git and set up Github ##
 
