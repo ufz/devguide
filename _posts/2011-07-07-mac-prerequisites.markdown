@@ -43,4 +43,3 @@ This installs Qt, Vtk, shapelib and geotiff:
 <pre class="terminal bootcamp">
 	<span class="codeline">$ brew install gtest open-sg cppcheck doxygen netcdf uncrustify<span>This installs libraries through the Homebrew package manager</span></span>
 </pre>
-
