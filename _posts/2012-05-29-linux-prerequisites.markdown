@@ -10,10 +10,10 @@ description: A quick guide to help you to install the prerequisites
 
 ## <span class="step">Second:</span> Install required packages ##
 
-For the OGS command line only CMake is needed. Install it with:
+For the OGS command line only a compiler and CMake is needed. Install both with:
 
 <pre class="terminal bootcamp">
-    <span class="codeline">$ sudo apt-get install cmake cmake-curses-gui<span>This installs CMake and its curses gui (ccmake)</span></span>
+    <span class="codeline">$ sudo apt-get install build-essential cmake cmake-curses-gui<span>This installs CMake and its curses gui (ccmake)</span></span>
 </pre>
 
 ## <span class="step">Optional:</span> Install libraries needed for the Data Explorer ##
