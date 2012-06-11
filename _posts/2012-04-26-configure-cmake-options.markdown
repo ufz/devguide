@@ -13,6 +13,7 @@ categories: beginner
 
 - `CMAKE_BUILD_TYPE` - Defaults to `Debug` which builds with debugging infos
 - `OGS_PROFILE` - Builds with profiling flags (`-pg`)
+- `OGS_CMAKE_DEBUG` - Prints out the values of all defined CMake variables at CMake configuration time.
 
 ## Optimization ##
 
