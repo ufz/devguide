@@ -16,6 +16,10 @@ For the OGS command line only a compiler and CMake is needed. Install both with:
     <span class="codeline">$ sudo apt-get install build-essential cmake cmake-curses-gui<span>This installs CMake and its curses gui (ccmake)</span></span>
 </pre>
 
+## <span class="step">Third:</span> Checkout the source code ##
+
+{% include checkout-general.markdown %}
+
 ## <span class="step">Optional:</span> Install libraries needed for the Data Explorer ##
 
 This installs Qt, Vtk, shapelib and geotiff:

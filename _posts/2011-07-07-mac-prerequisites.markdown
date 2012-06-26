@@ -28,6 +28,10 @@ You can now use the `homebrew` command to search, install or deinstall libraries
 	<span class="codeline">$ brew install cmake<span>This installs CMake through the Homebrew package manager</span></span>
 </pre>
 
+## <span class="step">Fourth:</span> Checkout the source code ##
+
+{% include checkout-general.markdown %}
+
 ## <span class="step">Optional:</span> Install libraries needed for the Data Explorer ##
 
 This installs Qt, Vtk, shapelib and geotiff:

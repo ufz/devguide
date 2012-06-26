@@ -5,6 +5,7 @@ The minimum prerequisites are:
 - Git (version control tool)
 - CMake (build configuration tool, at least version 2.8.3)
 - A compiler / IDE
+- *Subversion (only needed for OGS-5)*
 
 For the OGS DataExplorer the following are needed as well:
 
