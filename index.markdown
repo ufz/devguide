@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome to the OGS developer guide
+title: Welcome to the OpenGeoSys developer guide
 ---
 
 <div class="bootcamp-help">
@@ -44,7 +44,21 @@ title: Welcome to the OGS developer guide
   </div> <!-- /bootcamp-body -->
 </div>
 
-<div class="list-module">
+<div class="next-steps">
+  <p>If you are new to OpenGeoSys please pass through our 4 steps tutorial:</p>
+  <ol>
+    <li>In <a href="https://help.github.com/articles/set-up-git">Set Up Git</a> you will learn how to install the Git client which will let you access the version control system</li>
+    <li>In <a href="{{site.baseurl}}/prerequisites-redirect">Set Up Prerequisites</a> you will be guided the installation process of other required tools such as an IDE and CMake</li>
+    <li>Now it is time to <a href="{{site.baseurl}}/configure-cmake-redirect">Configure your build</a> with CMake to get the configuration and feature set of OpenGeoSys you need</li>
+    <li>Finally you can <a href="{{site.baseurl}}/build-redirect">Build OpenGeoSys</a> to create the executable</li>
+  </ol>
+</div>
+
+----
+
+**Note:** This guide is primarily suited for [OpenGeoSys-6](https://github.com/ufz/ogs) but most of it applies in the same way to [OGS-5](https://svn.ufz.de/ogs).
+
+<!-- <div class="list-module">
   <h2>Popular Guides</h2>
   <div class="list-body">
     <ul>
@@ -58,4 +72,4 @@ title: Welcome to the OGS developer guide
       {% endfor %}
     </ul>
   </div>
-</div>
+</div> -->
