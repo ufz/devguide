@@ -127,7 +127,7 @@ p.next-step strong, .next-steps {
   font-weight: bold;
 }
 .next-steps a {
-  background-image: url('{{site.baseurl}}/images/bootcamp/next_step_arrow.gif');
+  background-image: url('{{site.baseurl}}/shared/images/next_step_arrow.gif');
   background-repeat: no-repeat;
   background-position: right 50%;
   padding-right: 15px;

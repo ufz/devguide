@@ -4,7 +4,7 @@ title: Set Up Prerequisites
 description: A quick guide to help you to install the prerequisites
 ---
 
-<p class="intro">This guide will show you how to install and setup all prerequisites on <strong>Linux</strong> (Ubuntu). There are also guides for <strong><a href="{{site.baseurl}}/mac-prerequisites">Mac OS X</a></strong> and <strong><a href="{{site.baseurl}}/win-prerequisites">Windows</a></strong>.</p>
+<p class="intro">This guide will show you how to install and setup all prerequisites on <strong>Linux</strong> (Ubuntu). There are also guides for <strong><a href="{{site.baseurl}}/mac-prerequisites">Mac OS X</a></strong> and <strong><a href="{{site.baseurl}}/win-prerequisites">Windows</a></strong>. It is assumed that you have already <a href="{{site.baseurl}}/setup-git-redirect">set up Git</a>!</p>
 
 {% include prerequisites-general.markdown %}
 
@@ -36,3 +36,4 @@ This installs Qt, Vtk, shapelib and geotiff:
     <span class="codeline">$ sudo apt-get install libgtest-dev cppcheck doxygen uncrustify<span>This installs libraries through the package manager</span></span>
 </pre>
 
+{% include next-steps-prereqs.markdown %}

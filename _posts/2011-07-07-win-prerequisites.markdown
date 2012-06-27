@@ -4,7 +4,7 @@ title: Set Up Prerequisites
 description: A quick guide to help you to install the prerequisites
 ---
 
-<p class="intro">This guide will show you how to install and setup all prerequisites in <strong>Windows</strong>. There are also guides for <strong><a href="{{site.baseurl}}/linux-prerequisites">Linux</a></strong> and <strong><a href="{{site.baseurl}}/mac-prerequisites">OSX</a></strong>.</p>
+<p class="intro">This guide will show you how to install and setup all prerequisites in <strong>Windows</strong>. There are also guides for <strong><a href="{{site.baseurl}}/linux-prerequisites">Linux</a></strong> and <strong><a href="{{site.baseurl}}/mac-prerequisites">OSX</a></strong>. It is assumed that you have already <a href="{{site.baseurl}}/setup-git-redirect">set up Git</a>!</p>
 
 {% include prerequisites-general.markdown %}
 
@@ -65,3 +65,4 @@ Afterwards [create some environment variables](http://www.itechtalk.com/thread35
 
 {% include adv-tools-links.markdown %}
 
+{% include next-steps-prereqs.markdown %}

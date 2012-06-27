@@ -4,7 +4,7 @@ title: Set Up Prerequisites
 description: A quick guide to help you to install the prerequisites
 ---
 
-<p class="intro">This guide will show you how to install and setup all prerequisites on <strong>Mac OS X</strong>. There are also guides for <strong><a href="{{site.baseurl}}/linux-prerequisites">Linux</a></strong> and <strong><a href="{{site.baseurl}}/win-prerequisites">Windows</a></strong>.</p>
+<p class="intro">This guide will show you how to install and setup all prerequisites on <strong>Mac OS X</strong>. There are also guides for <strong><a href="{{site.baseurl}}/linux-prerequisites">Linux</a></strong> and <strong><a href="{{site.baseurl}}/win-prerequisites">Windows</a></strong>. It is assumed that you have already <a href="{{site.baseurl}}/setup-git-redirect">set up Git</a>!</p>
 
 {% include prerequisites-general.markdown %}
 
@@ -47,3 +47,5 @@ This installs Qt, Vtk, shapelib and geotiff:
 <pre class="terminal bootcamp">
 	<span class="codeline">$ brew install gtest open-sg cppcheck doxygen netcdf uncrustify<span>This installs libraries through the Homebrew package manager</span></span>
 </pre>
+
+{% include next-steps-prereqs.markdown %}

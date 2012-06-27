@@ -4,7 +4,7 @@ title: Build configuration with CMake
 description: How to configure a build with CMake
 ---
 
-<p class="intro">This guide will show you how to configure your build configuration on <strong>Windows</strong>. There are also guides for <strong><a href="{{site.baseurl}}/linux-configure-cmake">Linux and OSX</a></strong>.</p>
+<p class="intro">This guide will show you how to configure your build configuration on <strong>Windows</strong>. There are also guides for <strong><a href="{{site.baseurl}}/linux-configure-cmake">Linux and OSX</a></strong>. It is assumed that you have already <a href="{{site.baseurl}}/prerequisites-redirect">set up the prerequisites</a>!</p>
 
 {% include cmake-general.markdown %}
 
@@ -25,3 +25,5 @@ First, you need to open Git Bash (not the Windows command line), found in the st
 ----
 
 {% include cmake-gui-note.markdown %}
+
+{% include next-steps-cmake.markdown %}

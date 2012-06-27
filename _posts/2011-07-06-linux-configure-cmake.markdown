@@ -4,7 +4,7 @@ title: Build configuration with CMake
 description: How to configure a build with CMake
 ---
 
-<p class="intro">This guide will show you how to configure your build configuration on <strong>Linux and OSX</strong>. There is also a guide for <strong><a href="{{site.baseurl}}/win-configure-cmake">Windows</a></strong>.</p>
+<p class="intro">This guide will show you how to configure your build configuration on <strong>Linux and OSX</strong>. There is also a guide for <strong><a href="{{site.baseurl}}/win-configure-cmake">Windows</a></strong>. It is assumed that you have already <a href="{{site.baseurl}}/prerequisites-redirect">set up the prerequisites</a>!</p>
 
 {% include cmake-general.markdown %}
 
@@ -19,3 +19,5 @@ description: How to configure a build with CMake
 ----
 
 {% include cmake-gui-note.markdown %}
+
+{% include next-steps-cmake.markdown %}

@@ -4,7 +4,7 @@ title: Build the project with Make or Eclipse
 description:
 ---
 
-<p class="intro">This guide will show you how to build the project on <strong>Linux</strong>. There are also guides for <strong><a href="{{site.baseurl}}/win-build">Windows</a> and <a href="{{site.baseurl}}/mac-build">OSX</a></strong>.</p>
+<p class="intro">This guide will show you how to build the project on <strong>Linux</strong>. There are also guides for <strong><a href="{{site.baseurl}}/win-build">Windows</a> and <a href="{{site.baseurl}}/mac-build">OSX</a></strong>.  It is assumed that you have already <a href="{{site.baseurl}}/configure-cmake-redirect">configured with CMake</a>!</p>
 
 {% include make.markdown %}
 
@@ -19,3 +19,5 @@ Or with ccmake
         ccmake -G"Eclipse CDT4 - Unix Makefiles" ../sources
 
 Start the Eclipse ide. From the menu choose *File / Import*. In the import dialog choose *General / Existing projects into workspace* and click *Next*. In *Select root directory* select your build directory and make sure that *Copy project into workspace* is unchecked. Click Finish.
+
+{% include next-steps-build.markdown %}
