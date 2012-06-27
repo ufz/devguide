@@ -13,7 +13,8 @@ categories: beginner
 
 - `CMAKE_BUILD_TYPE` - Defaults to `Debug` which builds with debugging infos
 - `OGS_PROFILE` - Builds with profiling flags (`-pg`)
-- `OGS_CMAKE_DEBUG` - Prints out the values of all defined CMake variables at CMake configuration time.
+- `OGS_CMAKE_DEBUG` - Prints out the values of all defined CMake variables at CMake configuration time
+- `OGS_BUILD_INFO` - Informations on the build such as Git commit info, platform, build date and compiler options are embedded into the executables
 
 ## Optimization ##
 
@@ -27,4 +28,4 @@ Source code documentation is generated with [Doxygen](http://www.stack.nl/~dimit
 - `DOCS_GENERATE_CALL_GRAPHS` - Generate call dependency graphs
 - `DOCS_GENERATE_COLLABORATION_GRAPHS` - Generate collaboration graphs
 
-*These options all depend on the [DOT](http://www.graphviz.org/) tool.*
+    *These options all depend on the [DOT](http://www.graphviz.org/) tool.*
