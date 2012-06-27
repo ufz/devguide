@@ -5,7 +5,13 @@ description: A quick guide to properly configure the subversion client
 categories: advanced
 ---
 
-To ensure proper line endings on files setting up the following configuration is absolutely essential on your Subversion client. The configuration files are found in *~/.subversion/* on Linux systems or *%USERPROFILE%\Application Data\Subversion\\* on Windows systems. Add the following to your Subversion ***config***-file:
+To ensure proper line endings on files setting up the following configuration is absolutely essential on your Subversion client. The configuration files are found in:
+
+- *~/.subversion/* on Linux / Mac OS
+- *%USERPROFILE%\Application Data\Subversion\\* on Windows XP
+- *%USERPROFILE\AppData\Roaming\Subversion\\* on Windows 7
+
+Add the following to your Subversion ***config***-file:
 
     [miscellany]
     enable-auto-props = yes
