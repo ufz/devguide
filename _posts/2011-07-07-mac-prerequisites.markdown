@@ -4,7 +4,7 @@ title: Set Up Prerequisites
 description: A quick guide to help you to install the prerequisites
 ---
 
-<p class="intro">This guide will show you how to install and setup all prerequisites on <strong>Mac OS X</strong>. There are also guides for <strong><a href="{{site.baseurl}}/linux-prerequisites">Linux</a></strong> and <strong><a href="{{site.baseurl}}/win-prerequisites">Windows</a></strong>. It is assumed that you have already <a href="{{site.baseurl}}/setup-git-redirect">set up Git</a>!</p>
+<p class="intro">This guide will show you how to install and setup all prerequisites on <strong>Mac OS X</strong>. There are also guides for <strong><a href="{{site.baseurl}}/linux-prerequisites">Linux</a></strong> and <strong><a href="{{site.baseurl}}/win-prerequisites">Windows</a></strong>. It is assumed that you have already <a href="https://help.github.com/articles/set-up-git">set up Git</a>!</p>
 
 {% include prerequisites-general.markdown %}
 

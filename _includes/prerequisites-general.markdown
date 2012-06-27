@@ -17,5 +17,5 @@ For the OGS DataExplorer the following are needed as well:
 ## <span class="step">First:</span> Install Git and set up Github ##
 
 Because Git and Github are more complex topics its installation and setup is
-described on the [OGS Git help pages](http://ufz.github.com/help/set-up-git-redirect).
+described on the [GitHub help pages](http://ufz.github.com/help/set-up-git-redirect).
 Please follow the steps on the help pages and come back afterwards.

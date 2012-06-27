@@ -9,7 +9,7 @@ title: Welcome to the OGS developer guide
   <div class="bootcamp-body">
   <ul>
     <li class="setup">
-      <a href="{{site.baseurl}}/setup-git-redirect">
+      <a href="https://help.github.com/articles/set-up-git">
         <div class="image">&nbsp;</div>
         <div class="desc">
           <h2>Setup Git</h2>
