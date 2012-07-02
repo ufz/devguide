@@ -8,6 +8,7 @@ categories: beginner
 ## General ##
 
 - `OGS_DONT_USE_QT` - Disables all Qt specific code
+- `OGS_NO_EXTERNAL_LIBS` - Disables any external dependencies
 
 ## Debugging ##
 
