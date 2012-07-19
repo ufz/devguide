@@ -30,3 +30,5 @@ Source code documentation is generated with [Doxygen](http://www.stack.nl/~dimit
 - `DOCS_GENERATE_COLLABORATION_GRAPHS` - Generate collaboration graphs
 
     *These options all depend on the [DOT](http://www.graphviz.org/) tool.*
+
+- `DOCS_GENERATE_DOCSET` - Generate [Apple documentation sets](http://gentlebytes.com/appledoc-docs-examples-basic/), e.g. for use with [Dash](http://kapeli.com/dash/) (*Mac only*)
