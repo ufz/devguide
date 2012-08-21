@@ -7,6 +7,7 @@ categories: beginner
 
 ## General ##
 
+- `OGS_BUILD_GUI` - Builds the [Data Explorer](https://svn.ufz.de/ogs/attachment/wiki/WikiStart/DataExplorer-Manual.pdf?format=raw)
 - `OGS_DONT_USE_QT` - Disables all Qt specific code
 - `OGS_NO_EXTERNAL_LIBS` - Disables any external dependencies
 
