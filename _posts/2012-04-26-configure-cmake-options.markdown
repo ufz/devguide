@@ -5,10 +5,15 @@ description: Description of CMake configuration options
 categories: beginner
 ---
 
+Some of these options are enabled by default ("*Defaults* to *ON*") otherwise they must be expicitly set to *ON*.
+
 ## General ##
+
+CMake switches to enable / disable parts of OGS.
 
 - `OGS_BUILD_CLI` - Builds the simulator. *Defaults* to *ON*.
 - `OGS_BUILD_GUI` - Builds the [Data Explorer](https://svn.ufz.de/ogs/attachment/wiki/WikiStart/DataExplorer-Manual.pdf?format=raw)
+- `OGS_BUILD_TESTS` - Builds the test executables. *Defaults to *ON*.
 - `OGS_DONT_USE_QT` - Disables all Qt specific code
 - `OGS_NO_EXTERNAL_LIBS` - Disables any external dependencies
 
@@ -17,7 +22,7 @@ categories: beginner
 - `CMAKE_BUILD_TYPE` - Defaults to `Debug` which builds with debugging infos
 - `OGS_PROFILE` - Builds with profiling flags (`-pg`)
 - `OGS_CMAKE_DEBUG` - Prints out the values of all defined CMake variables at CMake configuration time
-- `OGS_BUILD_INFO` - Informations on the build such as Git commit info, platform, build date and compiler options are embedded into the executables
+- `OGS_BUILD_INFO` - Informations on the build such as Git commit info, platform, build date and compiler options are embedded into the executables. *Defaults* to *ON*.
 
 ## Optimization ##
 
