@@ -28,6 +28,10 @@ CMake switches to enable / disable parts of OGS.
 
 - `CMAKE_BUILD_TYPE` - Set to `Release` to build with optimization flags
 
+## Logging ##
+
+- `OGS_DISABLE_LOGGING` - Disables all logog output messages. This really strips out all logog-code (useful for performance testing).
+
 ## Documentation ##
 
 Source code documentation is generated with [Doxygen](http://www.stack.nl/~dimitri/doxygen). If Doxygen is found a new make target `doc` is created. Simply build that target and the documentation is generated in the *docs*-subfolder of the build directory.
