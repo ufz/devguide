@@ -11,7 +11,6 @@ description: A quick guide to help you to install the prerequisites
 Furthermore you need:
 
 - a bash environment (is included in the Git installation)
-- wget (if you want to use the automatic setup script)
 
 ## <span class="step">Second:</span> Install CMake ##
 
