@@ -33,6 +33,10 @@ CMake switches to enable / disable parts of OGS.
 
 - `OGS_DISABLE_LOGGING` - Disables all logog output messages. This really strips out all logog-code (useful for performance testing).
 
+## Testing ##
+
+- `OGS_COVERAGE` - Enables code coverage measurements with gcov/lcov. [More ...][{{site.baseurl}}/linux-coverage]
+
 ## Documentation ##
 
 Source code documentation is generated with [Doxygen](http://www.stack.nl/~dimitri/doxygen). If Doxygen is found a new make target `doc` is created. Simply build that target and the documentation is generated in the *docs*-subfolder of the build directory.
