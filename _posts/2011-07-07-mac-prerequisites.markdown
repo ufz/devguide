@@ -14,7 +14,7 @@ Install Xcode 4 through the Mac App Store (Mac OS X 10.6.x and higher) or [Xcode
 
 ## <span class="step">Third:</span> Install Homebrew ##
 
-[Homebrew](http://mxcl.github.com/homebrew/) is a package manager for Mac OS X and should be used to install all necessary libraries and tools. To install run the following on the Terminal:
+[Homebrew][homebrew] is a package manager for Mac OS X and should be used to install all necessary libraries and tools. To install run the following on the Terminal:
 
 <pre class="terminal bootcamp">
 	<span class="codeline">$ /usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"<span>This installs Homebrew</span></span>
@@ -31,6 +31,14 @@ You can now use the `homebrew` command to search, install or deinstall libraries
 ## <span class="step">Fourth:</span> Checkout the source code ##
 
 {% include checkout-general.markdown %}
+
+## <span class="step">Optional:</span> Install gcc ##
+
+As of Xcode 4.2 clang (LLVM) is the default compiler and gcc is no longer distributed with Xcode. If you like to use gcc you can install it via [Homebrew][homebrew]:
+
+<pre class="terminal bootcamp">
+	<span class="codeline">$ brew install gcc45 --enable-cxx<span>This installs gcc 4.5 with C++ enabled</span></span>
+</pre>
 
 ## <span class="step">Optional:</span> Install libraries needed for the Data Explorer ##
 
@@ -49,3 +57,5 @@ This installs Qt, Vtk, shapelib and geotiff:
 </pre>
 
 {% include next-steps-prereqs.markdown %}
+
+[homebrew]: http://mxcl.github.com/homebrew/
