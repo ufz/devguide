@@ -64,7 +64,7 @@ title: Welcome to the OpenGeoSys developer guide
     <ul>
       {% for post in site.categories.popular reversed %}
         <li>
-          <a href="/devguide{{ post.url }}" id="{{ cat }}">
+          <a href="{{ post.url }}" id="{{ cat }}">
             <h3>{{ post.title }}</h3>
             <p>{{ post.description }}</p>
           </a>

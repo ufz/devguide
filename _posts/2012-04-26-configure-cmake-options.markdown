@@ -13,7 +13,7 @@ CMake switches to enable / disable parts of OGS.
 
 - `OGS_BUILD_CLI` - Builds the simulator. *Defaults* to *ON*.
 - `OGS_BUILD_GUI` - Builds the [Data Explorer](https://svn.ufz.de/ogs/attachment/wiki/WikiStart/DataExplorer-Manual.pdf?format=raw)
-- `OGS_BUILD_TESTS` - Builds the test executables. *Defaults to *ON*.
+- `OGS_BUILD_TESTS` - Builds the test executables. *Defaults* to *ON*.
 - `OGS_DONT_USE_QT` - Disables all Qt specific code
 - `OGS_NO_EXTERNAL_LIBS` - Disables any external dependencies
 - `OGS_LIBS_DIR` - Search path for compiled third-party libraries such as *Geotiff* or *shapelib* (mainly used on Windows)

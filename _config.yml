@@ -2,6 +2,5 @@ permalink: /:title
 auto: true
 server: true
 pygments: true
-# baseurl: /devguide
 prose:
   rooturl: "_posts"
