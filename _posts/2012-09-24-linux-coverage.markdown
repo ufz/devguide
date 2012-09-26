@@ -24,7 +24,7 @@ The following tools are very likely to already be installed on Linux / Mac OS X:
 - Run a coverage-make-target, to get a list type `make help | grep coverage`
 - Following the on-screen instructions open the generated coverage report in a browser:
 
-![](https://s3.amazonaws.com/files.droplr.com/files_production/acc_57590/Nl8p?AWSAccessKeyId=AKIAJSVQN3Z4K7MT5U2A&Expires=1348498667&Signature=PYGlJ6tkPpbYnoYaTDDPhXqEWAQ%3D&response-content-disposition=inline%3B%20filename%3DScreenshot%2B2012-09-24%2Bat%2B15.57.30.png)
+![](http://d.pr/i/Nl8p+)
 
 ## How it works
 
