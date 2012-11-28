@@ -11,17 +11,13 @@ description: How to install boost on your system
 - Start the installer and leave all default options except:
 
     - Select *Visual Studio 2010* as a compiler and the *Multithreaded* / *Multithreaded debug* libraries:
-    
-        ![](http://d.pr/i/FlI7+)
+    ![](http://d.pr/i/FlI7+)
     
     - Prefered installation directory is *C:\boost*:
-    
-        ![](http://d.pr/i/Cepp+)
+    ![](http://d.pr/i/Cepp+)
 
 - If have installed Boost in another directory than *C:\boost* then add your install directory to your *PATH*-environment variable, e.g.:
+![](http://d.pr/i/QPrl+)
 
-    ![](http://d.pr/i/QPrl+)
-
-You can see that Boost is correctly found when looking at the CMake output:
-
-    ![](http://d.pr/i/euFR+)
+- You can see that Boost is correctly found when looking at the CMake output:
+![](http://d.pr/i/euFR+)
