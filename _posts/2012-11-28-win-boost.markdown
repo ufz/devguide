@@ -25,4 +25,3 @@ description: How to install boost on your system
 You can see that Boost is correctly found when looking at the CMake output:
 
     ![](http://d.pr/i/euFR+)
-    
