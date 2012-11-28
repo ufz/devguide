@@ -1,6 +1,6 @@
 ---
 layout: os_redirect
-title: Boost
+title: Boost installation
 description: 
 categories: advanced
 redirect_win: /win-boost/
