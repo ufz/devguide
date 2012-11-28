@@ -8,10 +8,12 @@ description: How to install boost on your system
 
 - Download the Boost installer for either [32-bit](http://boostpro.com/download/boost_1_51_setup.exe) or [64-bit](http://boostpro.com/download/x64/boost_1_51_setup.exe)
 - Start the installer and leave all default options except:
+
     - Select *Visual Studio 2010* as a compiler and the *Multithreaded* / *Multithreaded debug* libraries:
     ![](http://d.pr/i/FlI7+)
     - Prefered installation directory is *C:\boost*:
     ![](http://d.pr/i/Cepp+)
+
 - If have installed Boost in another directory than *C:\boost* then add your install directory to your *PATH*-environment variable, e.g.:
 ![](http://d.pr/i/QPrl+)
 
