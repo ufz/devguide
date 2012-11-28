@@ -8,6 +8,14 @@ description: A quick guide to help you to install the prerequisites
 
 {% include prerequisites-general.markdown %}
 
+## <span class="step">First:</span> Install Git and set up GitHub ##
+
+Because Git and Github are more complex topics its installation and setup is
+described on the [GitHub help pages](https://help.github.com/articles/set-up-git).
+Please follow the steps on the help pages and come back afterwards.
+
+You can also install the [graphical GitHub client](http://mac.github.com/) which is nice to use.
+
 ## <span class="step">Second:</span> Install Xcode ##
 
 Install Xcode 4 through the Mac App Store (Mac OS X 10.6.x and higher) or [Xcode 3](http://connect.apple.com/cgi-bin/WebObjects/MemberSite.woa/wo/5.1.17.2.1.3.3.1.0.1.1.0.3.1.3.3.1) (you need an apple developer login).

@@ -8,9 +8,9 @@ description: A quick guide to help you to install the prerequisites
 
 {% include prerequisites-general.markdown %}
 
-Furthermore you need:
+## <span class="step">First:</span> Install Git and set up GitHub ##
 
-- a bash environment (is included in the Git installation)
+Simply install the [graphical GitHub client](http://windows.github.com/) and log into it with your GitHub account credentials.
 
 ## <span class="step">Second:</span> Install CMake ##
 

@@ -6,16 +6,9 @@ The minimum prerequisites are:
 - CMake (build configuration tool, at least version 2.8.3)
 - A compiler / IDE
 - *Subversion (only needed for OGS-5)*
+- *A [GitHub account](https://github.com/signup/free) (only needed for OGS-6)*
 
 For the OGS DataExplorer the following are needed as well:
 
 - VTK (graphics library, at least version 5.8.x)
 - Qt (GUI library, at least version 4.7.x)
-- Shapelib
-- Geotiff
-
-## <span class="step">First:</span> Install Git and set up Github ##
-
-Because Git and Github are more complex topics its installation and setup is
-described on the [GitHub help pages](http://ufz.github.com/help/set-up-git-redirect).
-Please follow the steps on the help pages and come back afterwards.

@@ -8,6 +8,14 @@ description: A quick guide to help you to install the prerequisites
 
 {% include prerequisites-general.markdown %}
 
+## <span class="step">First:</span> Install Git and set up GitHub ##
+
+Because Git and Github are more complex topics its installation and setup is
+described on the [GitHub help pages](https://help.github.com/articles/set-up-git).
+Please follow the steps on the help pages and come back afterwards.
+
+You can also install the [Eclipse GitHub extension](http://eclipse.github.com/).
+
 ## <span class="step">Second:</span> Install required packages ##
 
 For the OGS command line only a compiler and CMake is needed. Install both with:
