@@ -1,0 +1,11 @@
+---
+layout: default
+title: Install Boost system-wide
+description: How to install boost on your system
+---
+
+<p class="intro">This guide will show you how to install Boost system-wide on <strong>Mac OS X</strong>. There are also a guides for <strong><a href="{{site.baseurl}}/win-boost">Windows</a></strong> and <strong><a href="{{site.baseurl}}/linux-boost">Linux</a></strong>.
+
+Install Boost via [Homebrew](http://mxcl.github.com/homebrew/):
+
+    brew install boost
