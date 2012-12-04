@@ -30,7 +30,21 @@ Install Xcode 4 through the Mac App Store (Mac OS X 10.6.x and higher) or [Xcode
 
 You can now use the `homebrew` command to search, install or deinstall libraries.
 
-## <span class="step">Fourth:</span> Install CMake ##
+## <span class="step">Fourth:</span> Install GCC, CMake ##
+
+As of Xcode 4.2 clang (LLVM) is the default compiler and gcc is no longer distributed with Xcode. You have to use gcc which you can via [Homebrew][homebrew]:
+
+<pre class="terminal bootcamp">
+	<span class="codeline">$ brew tap homebrew/dupes</span>
+	<span class="codeline">$ brew install gcc --enable-cxx<span>This installs gcc 4.7.2 with C++ enabled</span></span>
+</pre>
+
+You may want to set this as your default C/C++ compiler in your *.bashrc*:
+
+    export CC=/usr/local/bin/gcc-4.7
+    export CXX=/usr/local/bin/g++-4.7
+
+Then also install CMake:
 
 <pre class="terminal bootcamp">
 	<span class="codeline">$ brew install cmake<span>This installs CMake through the Homebrew package manager</span></span>
@@ -39,15 +53,6 @@ You can now use the `homebrew` command to search, install or deinstall libraries
 ## <span class="step">Fourth:</span> Checkout the source code ##
 
 {% include checkout-general.markdown %}
-
-## <span class="step">Optional:</span> Install gcc ##
-
-As of Xcode 4.2 clang (LLVM) is the default compiler and gcc is no longer distributed with Xcode. If you like to use gcc you can install it via [Homebrew][homebrew]:
-
-<pre class="terminal bootcamp">
-	<span class="codeline">$ brew tap homebrew/versions</span>
-	<span class="codeline">$ brew install gcc45 --enable-cxx<span>This installs gcc 4.5 with C++ enabled</span></span>
-</pre>
 
 ## <span class="step">Optional:</span> Install libraries needed for the Data Explorer ##
 
