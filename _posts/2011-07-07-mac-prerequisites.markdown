@@ -32,7 +32,7 @@ You can now use the `homebrew` command to search, install or deinstall libraries
 
 ## <span class="step">Fourth:</span> Install GCC, CMake ##
 
-As of Xcode 4.2 clang (LLVM) is the default compiler and gcc is no longer distributed with Xcode. You have to use gcc which you can via [Homebrew][homebrew]:
+As of Xcode 4.2 clang (LLVM) is the default compiler and gcc is no longer distributed with Xcode. You have to use gcc which you can install via [Homebrew][homebrew]:
 
 <pre class="terminal bootcamp">
 	<span class="codeline">$ brew tap homebrew/dupes</span>
