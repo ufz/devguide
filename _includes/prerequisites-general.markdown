@@ -3,7 +3,7 @@
 The minimum prerequisites are:
 
 - Git (version control tool)
-- CMake (build configuration tool, at least version 2.8.3)
+- CMake (build configuration tool, at least version 2.8.7)
 - A compiler / IDE
 - *Subversion (only needed for OGS-5)*
 - *A [GitHub account](https://github.com/signup/free) (only needed for OGS-6)*
