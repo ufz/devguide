@@ -1,0 +1,14 @@
+---
+layout: default
+title: 32- and 64-bit builds
+description: A quick note on bit-architecture
+categories: beginner
+---
+
+On Windows you decide at CMake-time if you want to compile a 32- or a 64-bit application. The 64-bit CMake generators are name with *... Win64*,
+e.g. *Visual Studio 10 Win64* vs. *Visual Studio 10*. You cannot change the bit-architecture in the Visual Studio project later on but you can have
+two build directories, one for 32- and one for 64-bits.
+
+On Linux the bit-architecture is automatically set to match the architecture of the Linux installation. So usually you will compile a 64-bits application.
+
+See also the [CMake page]({{site.baseurl}}/configure-cmake-redirect).
