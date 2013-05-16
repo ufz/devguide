@@ -42,13 +42,12 @@ CMake switches to enable / disable parts of OGS.
 
 Source code documentation is generated with [Doxygen](http://www.stack.nl/~dimitri/doxygen). If Doxygen is found a new make target `doc` is created. Simply build that target and the documentation is generated in the *docs*-subfolder of the build directory.
 
-- `DOCS_GENERATE_DIAGRAMS` - Use the DOT tool to generate class diagrams
-- `DOCS_GENERATE_CALL_GRAPHS` - Generate call dependency graphs
-- `DOCS_GENERATE_COLLABORATION_GRAPHS` - Generate collaboration graphs
-
-    *These options all depend on the [DOT](http://www.graphviz.org/) tool.*
-
+- `DOCS_GENERATE_DIAGRAMS` - Use the DOT tool to generate class diagrams*
+- `DOCS_GENERATE_CALL_GRAPHS` - Generate call dependency graphs*
+- `DOCS_GENERATE_COLLABORATION_GRAPHS` - Generate collaboration graphs*
 - `DOCS_GENERATE_DOCSET` - Generate [Apple documentation sets](http://gentlebytes.com/appledoc-docs-examples-basic/), e.g. for use with [Dash](http://kapeli.com/dash/) (*Mac only*)
+
+    \* ... *These options all depend on the [DOT](http://www.graphviz.org/) tool.*
 
 ## Advanced options ##
 

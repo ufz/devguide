@@ -469,7 +469,7 @@ div.sidebar-module ul ul li span {
 .content .sectionbody .dlist dt,
 .content p > tt,
 .content dl code,
-.content ul code,
+.content ul :not(div.highlight) code,
 p code {
   font: 12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
   color: #52595d;
@@ -567,7 +567,7 @@ pre.highlight {
   background-color: #FAFAFB;
 }
 
-pre.terminal {
+div.highlight, pre.terminal {
   background-color: #444;
   color: #fff;
   -webkit-border-radius: 3px;
@@ -578,7 +578,7 @@ pre.terminal {
   background-clip: padding-box;
   border: 2px solid #DEDEDE;
   position: relative;
-  padding: 10px;
+  padding: 5px;
   text-shadow: none;
   background-image: none;
   filter: none;
