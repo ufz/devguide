@@ -16,7 +16,7 @@ The following tools are very likely to already be installed on Linux / Mac OS X:
 - [gcov](http://gcc.gnu.org/onlinedocs/gcc/Gcov.html)
 - [lcov](http://ltp.sourceforge.net/coverage/lcov.php)
 - [genhtml](http://linux.die.net/man/1/genhtml)
-- GCC compiler (for Mac [see here]({{site.baseurl}}/mac-prerequisites))
+- GCC compiler (for Mac [see here]({% raw %}{{ site.baseurl }}{% endraw %}/mac-prerequisites))
 
 ## To get started
 

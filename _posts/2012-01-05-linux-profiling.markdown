@@ -4,7 +4,7 @@ title: Profile your code
 description:
 ---
 
-<p class="intro">This guide will show you how to profile your ogs run on <strong>Linux and OSX</strong>. There is also a guide for <strong><a href="{{site.baseurl}}/win-profiling">Windows</a></strong>.</p>
+<p class="intro">This guide will show you how to profile your ogs run on <strong>Linux and OSX</strong>. There is also a guide for <strong><a href="{% raw %}{{ site.baseurl }}{% endraw %}/win-profiling">Windows</a></strong>.</p>
 
 {% include profiling-intro.markdown %}
 
@@ -16,7 +16,7 @@ To profile an OGS run you have to configure with the `-DOGS_PROFILE=ON` CMake-op
 
 ## Generate nice graphs ##
 
-![gprof2dot generated graph]({{site.baseurl}}/images/profiling.png)
+![gprof2dot generated graph]({% raw %}{{ site.baseurl }}{% endraw %}/images/profiling.png)
 
 ### Prerequisites ###
 

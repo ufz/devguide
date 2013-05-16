@@ -4,7 +4,7 @@ title: Build the project with Make or Eclipse
 description:
 ---
 
-<p class="intro">This guide will show you how to build the project on <strong>Linux</strong>. There are also guides for <strong><a href="{{site.baseurl}}/win-build">Windows</a> and <a href="{{site.baseurl}}/mac-build">OSX</a></strong>.  It is assumed that you have already <a href="{{site.baseurl}}/configure-cmake-redirect">configured with CMake</a>!</p>
+<p class="intro">This guide will show you how to build the project on <strong>Linux</strong>. There are also guides for <strong><a href="{% raw %}{{ site.baseurl }}{% endraw %}/win-build">Windows</a> and <a href="{% raw %}{{ site.baseurl }}{% endraw %}/mac-build">OSX</a></strong>.  It is assumed that you have already <a href="{% raw %}{{ site.baseurl }}{% endraw %}/configure-cmake-redirect">configured with CMake</a>!</p>
 
 {% include make.markdown %}
 

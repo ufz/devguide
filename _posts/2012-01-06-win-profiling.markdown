@@ -4,7 +4,7 @@ title: Profile your code
 description:
 ---
 
-<p class="intro">This guide will show you how to profile your ogs run on <strong>Windows</strong>. There is also a guide for <strong><a href="{{site.baseurl}}/linux-profiling">Linux and OSX</a></strong>.</p>
+<p class="intro">This guide will show you how to profile your ogs run on <strong>Windows</strong>. There is also a guide for <strong><a href="{% raw %}{{ site.baseurl }}{% endraw %}/linux-profiling">Linux and OSX</a></strong>.</p>
 
 {% include profiling-intro.markdown %}
 

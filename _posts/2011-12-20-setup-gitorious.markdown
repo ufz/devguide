@@ -52,7 +52,7 @@ To push changes from Git to Subversion simply push to the branch *master* of the
 
 ## Workflow ##
 
-![Gitorious Workflow]({{site.baseurl}}/images/gitorious-workflow.png "Gitorious Workflow")
+![Gitorious Workflow]({% raw %}{{ site.baseurl }}{% endraw %}/images/gitorious-workflow.png "Gitorious Workflow")
 
 ### Fetch upstream changes ###
 

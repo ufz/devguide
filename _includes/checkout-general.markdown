@@ -10,7 +10,7 @@ cloned.
 <div class="more-info">
     <h4 class="compressed">You want to checkout OGS-5 from Subversion?</h4>
     <div class="more-content">
-        <p>Before checking out the source code make sure to configure your SVN-client properly: <a href="{{site.baseurl}}/configure-svn">Configure Subversion</a></p>
+        <p>Before checking out the source code make sure to configure your SVN-client properly: <a href="{% raw %}{{ site.baseurl }}{% endraw %}/configure-svn">Configure Subversion</a></p>
         <p>You can checkout the source directory of the OGS Subversion-Trunk with this shell command:</p>
             <pre class="terminal bootcamp">
                 <span class="codeline">$ svn co https://svn.ufz.de/svn/ogs/trunk/sources</span>
