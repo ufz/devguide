@@ -36,7 +36,7 @@ CMake switches to enable / disable parts of OGS.
 
 ## Testing ##
 
-- `OGS_COVERAGE` - Enables code coverage measurements with gcov/lcov. [More ...]({% raw %}{{ site.baseurl }}{% endraw %}/linux-coverage)
+- `OGS_COVERAGE` - Enables code coverage measurements with gcov/lcov. [More ...](/linux-coverage)
 
 ## Documentation ##
 

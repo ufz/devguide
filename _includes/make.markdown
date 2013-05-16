@@ -11,4 +11,4 @@ To speedup the compilation process append the number of cores of your cpu to the
 
 
 
-[cmake]: {% raw %}{{ site.baseurl }}{% endraw %}/linux-configure-cmake
+[cmake]: /linux-configure-cmake

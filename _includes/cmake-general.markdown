@@ -6,4 +6,4 @@ Because of the separation of the source code and all stuff that is generated as 
 
 When you want to start over with a new configuration simply delete the build-directory, create a new one and reconfigure.
 
-For a list of available options see the [CMake configuration options]({% raw %}{{ site.baseurl }}{% endraw %}/configure-cmake-options) page.
+For a list of available options see the [CMake configuration options](/configure-cmake-options) page.

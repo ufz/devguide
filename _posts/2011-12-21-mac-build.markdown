@@ -4,7 +4,7 @@ title: Build the project with Make or XCode
 description:
 ---
 
-<p class="intro">This guide will show you how to build the project on <strong>Mac OS X</strong>. There are also guides for <strong><a href="{% raw %}{{ site.baseurl }}{% endraw %}/linux-build">Linux</a> and <a href="{% raw %}{{ site.baseurl }}{% endraw %}/win-build">Windows</a></strong>.  It is assumed that you have already <a href="{% raw %}{{ site.baseurl }}{% endraw %}/configure-cmake-redirect">configured with CMake</a>!</p>
+<p class="intro">This guide will show you how to build the project on <strong>Mac OS X</strong>. There are also guides for <strong><a href="/linux-build">Linux</a> and <a href="/win-build">Windows</a></strong>.  It is assumed that you have already <a href="/configure-cmake-redirect">configured with CMake</a>!</p>
 
 {% include make.markdown %}
 
@@ -32,6 +32,6 @@ You can also use the [Clang compiler](http://clang.llvm.org/features.html) compi
 
 Afterwards select **LLVM compiler 2.0** in Xcodes build settings.
 
-[cmake]: {% raw %}{{ site.baseurl }}{% endraw %}/linux-configure-cmake
+[cmake]: /linux-configure-cmake
 
 {% include next-steps-build.markdown %}

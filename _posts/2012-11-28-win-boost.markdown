@@ -4,7 +4,7 @@ title: Install Boost system-wide
 description: How to install boost on your system
 ---
 
-<p class="intro">This guide will show you how to install Boost system-wide on <strong>Windows</strong>. There are also a guides for <strong><a href="{% raw %}{{ site.baseurl }}{% endraw %}/linux-boost">Linux</a></strong> and <strong><a href="{% raw %}{{ site.baseurl }}{% endraw %}/mac-boost">Mac OS X</a></strong>.</p>
+<p class="intro">This guide will show you how to install Boost system-wide on <strong>Windows</strong>. There are also a guides for <strong><a href="/linux-boost">Linux</a></strong> and <strong><a href="/mac-boost">Mac OS X</a></strong>.</p>
 
 - Download the Boost installer for either [32-bit](http://boostpro.com/download/boost_1_51_setup.exe) or [64-bit](http://boostpro.com/download/x64/boost_1_51_setup.exe)
 

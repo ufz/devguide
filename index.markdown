@@ -17,7 +17,7 @@ title: Welcome to the OpenGeoSys developer guide
       </a>
     </li>
     <li class="fork-a-repo">
-      <a href="{% raw %}{{ site.baseurl }}{% endraw %}/prerequisites-redirect">
+      <a href="/prerequisites-redirect">
         <div class="image">&nbsp;</div>
         <div class="desc">
           <h2>Prerequisites</h2>
@@ -25,7 +25,7 @@ title: Welcome to the OpenGeoSys developer guide
       </a>
     </li>
     <li class="create-a-repo">
-      <a href="{% raw %}{{ site.baseurl }}{% endraw %}/configure-cmake-redirect">
+      <a href="/configure-cmake-redirect">
         <div class="image">&nbsp;</div>
         <div class="desc">
           <h2>Configure</h2>
@@ -33,7 +33,7 @@ title: Welcome to the OpenGeoSys developer guide
       </a>
     </li>
     <li class="be-social">
-      <a href="{% raw %}{{ site.baseurl }}{% endraw %}/build-redirect">
+      <a href="/build-redirect">
         <div class="image">&nbsp;</div>
         <div class="desc">
           <h2>Build</h2>
@@ -48,9 +48,9 @@ title: Welcome to the OpenGeoSys developer guide
   <p>If you are new to OpenGeoSys please pass through our 4 steps tutorial:</p>
   <ol>
     <li>In <a href="https://help.github.com/articles/set-up-git">Set Up Git</a> you will learn how to install the Git client which will let you access the version control system</li>
-    <li>In <a href="{% raw %}{{ site.baseurl }}{% endraw %}/prerequisites-redirect">Set Up Prerequisites</a> you will be guided the installation process of other required tools such as an IDE and CMake</li>
-    <li>Now it is time to <a href="{% raw %}{{ site.baseurl }}{% endraw %}/configure-cmake-redirect">Configure your build</a> with CMake to get the configuration and feature set of OpenGeoSys you need</li>
-    <li>Finally you can <a href="{% raw %}{{ site.baseurl }}{% endraw %}/build-redirect">Build OpenGeoSys</a> to create the executable</li>
+    <li>In <a href="/prerequisites-redirect">Set Up Prerequisites</a> you will be guided the installation process of other required tools such as an IDE and CMake</li>
+    <li>Now it is time to <a href="/configure-cmake-redirect">Configure your build</a> with CMake to get the configuration and feature set of OpenGeoSys you need</li>
+    <li>Finally you can <a href="/build-redirect">Build OpenGeoSys</a> to create the executable</li>
   </ol>
 </div>
 

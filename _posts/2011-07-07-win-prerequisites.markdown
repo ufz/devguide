@@ -4,7 +4,7 @@ title: Set Up Prerequisites
 description: A quick guide to help you to install the prerequisites
 ---
 
-<p class="intro">This guide will show you how to install and setup all prerequisites in <strong>Windows</strong>. There are also guides for <strong><a href="{% raw %}{{ site.baseurl }}{% endraw %}/linux-prerequisites">Linux</a></strong> and <strong><a href="{% raw %}{{ site.baseurl }}{% endraw %}/mac-prerequisites">OSX</a></strong>. It is assumed that you have already <a href="https://help.github.com/articles/set-up-git">set up Git</a>!</p>
+<p class="intro">This guide will show you how to install and setup all prerequisites in <strong>Windows</strong>. There are also guides for <strong><a href="/linux-prerequisites">Linux</a></strong> and <strong><a href="/mac-prerequisites">OSX</a></strong>. It is assumed that you have already <a href="https://help.github.com/articles/set-up-git">set up Git</a>!</p>
 
 {% include prerequisites-general.markdown %}
 
@@ -23,7 +23,7 @@ Simply install the [graphical GitHub client](http://windows.github.com/) and log
 
 	On installing please check the *Add CMake to the system path for ...*:
 
-	<img src="{% raw %}{{ site.baseurl }}{% endraw %}/images/cmake-win-install.png" width="511" height="396" alt="Check path option" />
+	<img src="/images/cmake-win-install.png" width="511" height="396" alt="Check path option" />
 
 ## <span class="step">Third:</span> Install Visual Studio ##
 
