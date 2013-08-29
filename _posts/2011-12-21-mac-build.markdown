@@ -4,33 +4,9 @@ title: Build the project with Make or XCode
 description:
 ---
 
-<p class="intro">This guide will show you how to build the project on <strong>Mac OS X</strong>. There are also guides for <strong><a href="/linux-build">Linux</a> and <a href="/win-build">Windows</a></strong>.  It is assumed that you have already <a href="/configure-cmake-redirect">configured with CMake</a>!</p>
+This guide will show you how to build the project on **Mac OS X**. There are also guides for **[Linux](/linux-build)** and **[Windows](/win-build)**.  It is assumed that you have already [configured with CMake](/configure-cmake-redirect")!
 
 {% include make.markdown %}
-
-## <span class="step">Option 2:</span> Build with Xcode ##
-
-To let CMake generate the Xcode project files change the generator argument to the [CMake run][cmake]:
-
-        cmake [your configuration options] -G Xcode ../sources
-
-Or with ccmake
-
-        ccmake -G Xcode ../sources
-
-Then load the generated project file by either clicking the *OGS.xcodeproj* or via
-
-        open OGS.xcodeproj
-
-In Xcode choose *ogs* or *ogs-gui* from the drop-down menu on the top right and then hit the *Run*-button.
-
-### Use Xcode's clang compiler ###
-
-You can also use the [Clang compiler](http://clang.llvm.org/features.html) compiler from Xcode to speed up compilation times significantly (OGS_FEM configuration with gcc on a Dual-Core Mac takes about 120 seconds whereas the Clang compilation finishes in 45 seconds.) or to get better compiler warning and error messages. Add those options to the CMake run:
-
-        -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++
-
-Afterwards select **LLVM compiler 2.0** in Xcodes build settings.
 
 [cmake]: /linux-configure-cmake
 

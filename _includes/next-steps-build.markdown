@@ -1,4 +1,4 @@
-## <span class="step">Next steps:</span>
+# Next steps
 
 Congratulations! You have finished the getting started tutorial! Have a look at
 the following topics if you like:
