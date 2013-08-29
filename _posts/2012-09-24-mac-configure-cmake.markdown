@@ -10,11 +10,7 @@ This guide will show you how to configure your build configuration on **Mac OS X
 
 # Step by step
 
-## Configure visually with the ccmake tool ##
-
 {% include ccmake.markdown %}
-
-## Configure from the command line ##
 
 {% include cmake-cli.markdown %}
 

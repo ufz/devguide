@@ -1,3 +1,5 @@
+## Configure visually with the ccmake tool ##
+
 A better way of running cmake on the command line is to use the `ccmake` tool. This is a shell tool but with some graphical user interface. To use it just run `ccmake` inside your build directory with the generator you want to use the and also path to the source code as parameters:
 
 {% highlight bash %}
