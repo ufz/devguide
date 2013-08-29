@@ -1,12 +1,11 @@
-## <span class="step">Intro:</span> Minimum prerequisites ##
+# Minimum prerequisites #
 
 The minimum prerequisites are:
 
 - Git (version control tool)
-- CMake (build configuration tool, at least version 2.8.7)
+- CMake (build configuration tool, at least version 2.8.8)
 - A compiler / IDE
-- *Subversion (only needed for OGS-5)*
-- *A [GitHub account](https://github.com/signup/free) (only needed for OGS-6)*
+- A [GitHub account](https://github.com/signup/free)
 
 For the OGS DataExplorer the following are needed as well:
 

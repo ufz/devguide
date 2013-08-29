@@ -5,3 +5,4 @@ These libraries and tools enable some advanced options in OGS:
 - [Cppcheck](http://sourceforge.net/apps/mediawiki/cppcheck) for static code analysis
 - [Doxygen](http://www.stack.nl/~dimitri/doxygen/) for source code documentation generation
 - [Uncrustify](http://uncrustify.sourceforge.net/) for automatic code styling
+

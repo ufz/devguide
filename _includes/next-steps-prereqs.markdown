@@ -1,4 +1,4 @@
-## <span class="step">Next steps:</span>
+# Next steps
 
 <div class="next-steps">
     <ul>
