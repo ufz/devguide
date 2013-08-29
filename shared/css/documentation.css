@@ -22,6 +22,10 @@ p {
   margin: 1em 0;
 }
 
+p:first-of-type {
+  color: #868686;
+}
+
 h1 {
   font-size: 20px;
   border-bottom: 1px solid #cccccc;
@@ -46,6 +50,16 @@ h2 {
 
 h2 span.step {
   color: #666;
+}
+
+div.content h1 {
+  counter-reset: step-increment;
+}
+
+div.content > h2::before {
+  content: "Step " counter(step-increment) ": ";
+  color: #666;
+  counter-increment: step-increment;
 }
 
 h3 {
