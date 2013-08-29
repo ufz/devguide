@@ -4,28 +4,22 @@ title: Build configuration with CMake
 description: How to configure a build with CMake
 ---
 
-<p class="intro">This guide will show you how to configure your build configuration on <strong>Mac OS X</strong>. There are also a guides for <strong><a href="/win-configure-cmake">Windows</a></strong> and <strong><a href="/linux-configure-cmake">Linux</a></strong>. It is assumed that you have already <a href="/prerequisites-redirect">set up the prerequisites</a>!</p>
+This guide will show you how to configure your build configuration on **Mac OS X**. There are also a guides for **[Windows](/win-configure-cmake)** and **[Linux](/linux-configure-cmake)**. It is assumed that you have already [set up the prerequisites](/prerequisites-redirect)!
 
 {% include cmake-general.markdown %}
 
-## <span class="step">Option 1:</span> Configure visually with the ccmake tool ##
+# Step by step
+
+## Configure visually with the ccmake tool ##
 
 {% include ccmake.markdown %}
 
-## <span class="step">Option 2:</span> Configure from the command line ##
+## Configure from the command line ##
 
 {% include cmake-cli.markdown %}
 
 ----
 
 {% include cmake-gui-note.markdown %}
-
-## <span class="step">Optional:</span> Configure to use GCC compiler ##
-
-If you like to use the GCC compiler and you have it [already installed](/mac-prerequisites) you have to tell it CMake:
-
-<pre class="terminal bootcamp">
-    <span class="codeline">$ cmake -DCMAKE_C_COMPILER=/usr/local/bin/gcc-4.5 -DCMAKE_CXX_COMPILER=/usr/local/bin/g++-4.5</span>
-</pre>
 
 {% include next-steps-cmake.markdown %}
