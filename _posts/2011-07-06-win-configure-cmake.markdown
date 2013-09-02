@@ -4,21 +4,19 @@ title: Build configuration with CMake
 description: How to configure a build with CMake
 ---
 
-<p class="intro">This guide will show you how to configure your build configuration on <strong>Windows</strong>. There are also guides for <strong><a href="/linux-configure-cmake">Linux and OSX</a></strong>. It is assumed that you have already <a href="/prerequisites-redirect">set up the prerequisites</a>!</p>
+This guide will show you how to configure your build configuration on **Windows**. There are also guides for **[Linux and Mac OS](/linux-configure-cmake)**. It is assumed that you have already [set up the prerequisites](/prerequisites-redirect)!
 
 {% include cmake-general.markdown %}
 
-## <span class="step">Option 1:</span> Configure visually with CMake-GUI ##
+## Configure visually with CMake-GUI ##
 
 {% include cmake-gui.markdown %}
 
-## <span class="step">Option 2:</span> Configure from the command line ##
+## Configure from the command line ##
 
-First, you need to open Git Bash (not the Windows command line), found in the start menu in the git-folder.
+First, you need to open the Git Shell (not the Windows command line) that comes with GitHub for Windows, found in the start menu in the *GitHub Inc*-folder:
 
-<img src="/images/bootcamp/bootcamp_1_win_gitbash.jpg" width="558" height="300" alt="Open the terminal" />
-
-{% include git-bash-intro.markdown %}
+<img src="http://d.pr/i/vyzS+"  alt="Open the Git Shell" />
 
 {% include cmake-cli.markdown %}
 

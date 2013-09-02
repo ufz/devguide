@@ -12,6 +12,8 @@ This guide will show you how to configure your build configuration on **Mac OS X
 
 {% include ccmake.markdown %}
 
+## Configure from the command line ##
+
 {% include cmake-cli.markdown %}
 
 ----
